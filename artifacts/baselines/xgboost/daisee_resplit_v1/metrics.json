@@ -1,0 +1,49 @@
+{
+  "feature_dim": 84,
+  "best_threshold": 0.4,
+  "val": {
+    "acc": 0.6639283047050037,
+    "prec": 0.4223300970873786,
+    "rec": 0.7372881355932204,
+    "f1": 0.537037037037037,
+    "spec": 0.6375634517766497,
+    "bal_acc": 0.6874257936849351,
+    "tp": 261,
+    "tn": 628,
+    "fp": 357,
+    "fn": 93,
+    "threshold": 0.4,
+    "roc_auc": 0.7524620723278557,
+    "pr_auc": 0.5416347767030927
+  },
+  "test": {
+    "acc": 0.673134328358209,
+    "prec": 0.43140495867768597,
+    "rec": 0.7352112676056338,
+    "f1": 0.5437500000000001,
+    "spec": 0.650761421319797,
+    "bal_acc": 0.6929863444627153,
+    "tp": 261,
+    "tn": 641,
+    "fp": 344,
+    "fn": 94,
+    "threshold": 0.4,
+    "roc_auc": 0.7615843283048546,
+    "pr_auc": 0.5257268720740487
+  },
+  "params": {
+    "features_dir": "data\\processed\\daisee_split",
+    "save_dir": "artifacts\\baselines\\xgboost\\daisee_resplit_v1",
+    "decision_metric": "bal_acc",
+    "thr_min": 0.2,
+    "thr_max": 0.9,
+    "thr_steps": 15,
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "random_state": 42
+  },
+  "scale_pos_weight": 2.781609195402299
+}

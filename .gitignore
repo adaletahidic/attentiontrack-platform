@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.idea/
+*.pyc
+*.pyo
+
+logs/
+recordings/
+
+*.pt
+*.pkl
+*.mp4
+*.jsonl
+
+.streamlit/
